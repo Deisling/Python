@@ -117,7 +117,6 @@ preisTransport = lieferwagen*kmLieferwagen+lastwagen*kmLastwagen
 print("Preis ist", preisTransport)
 
 
-
 '''#### AUFGABE5 #####
 # Weinhändler
 print("Aufgabe6")

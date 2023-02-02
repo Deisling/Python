@@ -1,8 +1,3 @@
-cities = ['New York','Moscow','new dehli','Sinferopol','Toronto']
-print(cities)
-#показывает длину списка
-print(len(cities))
-#показывает конкретное слово из списка
 print(cities[1])
 print(cities[-2])
 #выводит с больщой буквы
