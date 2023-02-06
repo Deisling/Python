@@ -13,18 +13,19 @@ print(summa)
 '''
 
 
-'''
+
 message = ""
 
 while message != 'sekret':
-    message = input("Enter Password")
+    message = input("Enter Password: ")
     if message == 'secret':
         break
     print(message + " Password Not Correct")
     
 print("Password was " + message)    
-'''
 
+
+'''
 mylist = []
 msg = ""
 
@@ -34,4 +35,6 @@ while msg != 'stop'.upper():
     
     
 print(mylist)    
+'''
+
 
