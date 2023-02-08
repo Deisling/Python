@@ -25,5 +25,20 @@ class Hero():
     
     
     
+class SuperHero(Hero):
+    """ Class to Create Super Hero"""
+    def __init__(self, name, level, race, magiclevel):
+        """Initiate our Super Hero"""
+        super().__init__(name, level, race)
+        self.magiclevel = magiclevel
+        self.__magic = 100 
+        
+    def makemagic(self):
+        """ Use magic""" 
+        self.__magic -= 10
+        
+    def show_hero(self):
+        discription = (self.name + " Level is: " + str(self.level) + "  Race is: " + self.race + "  Health is: " + str(self.health) + "  Magic is " + str(self.__magic)).title()
+        print(discription)
     
         
