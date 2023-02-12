@@ -1,0 +1,41 @@
+ Volume in drive D has no label.
+ Volume Serial Number is C22D-5EDD
+
+ Directory of D:\MyPython\pythonProjectTest
+
+12.02.2023  20:18    <DIR>          .
+12.02.2023  20:18    <DIR>          ..
+08.02.2023  20:45    <DIR>          .idea
+05.02.2023  18:38    <DIR>          .vscode
+02.02.2023  21:45             2.209 Frau Kiel.py
+08.02.2023  21:26             1.447 hero.py
+02.02.2023  21:31               720 Lesson-10-if-elif-else.py
+06.02.2023  20:06               563 Lesson-11-Dictionory.py
+05.02.2023  22:49               596 Lesson-12-Dictionory.py
+07.02.2023  20:30               632 Lesson-13-Input.py
+07.02.2023  20:30               682 Lesson-14-Funktions1.py
+07.02.2023  20:30               646 Lesson-15-Funktions1.py
+07.02.2023  20:49               100 Lesson-16-Module.py
+07.02.2023  21:56               316 Lesson-17-Class1.py
+10.02.2023  18:42               499 Lesson-18-Class2.py
+10.02.2023  18:42               491 Lesson-19-Files.py
+10.02.2023  21:32               519 Lesson-20-Exceptions.py
+12.02.2023  19:55             1.039 Lesson-21-JSON.py
+12.02.2023  20:21               353 Lesson-22-Arguments.py
+02.02.2023  21:45               355 Lesson-3-Variables.py
+13.11.2022  18:35               539 Lesson-5-Strings.py
+13.11.2022  18:41               282 Lesson-6-Numbers.py
+01.01.2023  17:12               232 Lesson-7-Loops.py
+02.02.2023  21:56             1.208 Lesson-8-Lists1.py
+01.01.2023  18:21             1.424 Lesson-9-Lists2.py
+10.02.2023  21:09                35 Lessons_List.txt
+09.11.2022  20:25               544 main.py
+07.02.2023  20:46               179 mymodule.py
+02.02.2023  22:36                66 tets.py
+12.02.2023  20:21                 0 text.txt
+12.02.2023  20:00               155 user_settings.txt
+13.11.2022  18:09    <DIR>          venv
+07.02.2023  20:30                38 workspace.code-workspace
+08.02.2023  21:20    <DIR>          __pycache__
+              28 File(s)         15.869 bytes
+               6 Dir(s)  311.026.925.568 bytes free

@@ -43,4 +43,6 @@ for user in json_moyainformaziya:
     print("Player Award N2: " + str(user['Awards'][1]))
     print("Player Award N2: " + str(user['Awards'][2]))
     print("------------------------------------------\n\n")
-    
+
+
+
