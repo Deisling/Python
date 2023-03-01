@@ -103,7 +103,7 @@ print("Das kostet",preis)
 '''
 
 
-
+'''
 ##### AUFGABE5 #####
 #Transporte mit Lieferwagen und Lastwagen
 print("Aufgabe5")
@@ -115,7 +115,7 @@ kmLastwagen = int(input("kmLastwagen"))
 
 preisTransport = lieferwagen*kmLieferwagen+lastwagen*kmLastwagen
 print("Preis ist", preisTransport)
-
+'''
 
 '''#### AUFGABE5 #####
 # Weinhändler
@@ -132,6 +132,139 @@ anzahlWeiss = 24
 preisWein = preisRot*anzahlRot+preisRose*anzahlRose+preisWeiss*anzahlWeiss
 print("Preis ist", preisWein)
 '''
+
+'''
+#if-Anweisung
+wochentag = input("Geben Sie den Wochentag ein: ")
+
+if wochentag == "Freitag":
+    print("bald geschaft")
+
+#Moglichkeit 
+elif wochentag in ["Sa", "So"]:
+    print("juhu") 
+
+#Wenn Bedingung falsch
+else: 
+    print("Fehler") 
+'''
+
+'''
+hobby = input("Geben Sie Hobby: ")
+
+if hobby == "zocken":
+    print("yeah")
+
+#Wenn Bedingung falsch
+else: 
+    print("such dir was besseres!") 
+'''
+
+'''
+#Aufgabe1
+wetter = input("Wetter ist: ")
+
+if wetter == "Sonne":
+    print("Sonnenbrille einpacken")
+
+elif wetter == "Regen":
+    print("Regenschirm einpacken") 
+
+elif wetter == "Schnee":
+    print("eine Mutze aufsetyen")        
+else: 
+    print("Fehler") 
+'''
+
+
+'''
+#Aufgabe2
+
+a = input("Bitte geben erste Zahl: ")
+b = input("Bitte geben zweite Zahl: ")
+c = input("Bitte geben dritte Zahl: ")
+
+if (a > b) and (a > c):
+    print("Erste Zahl ist am grossten")
+elif (b > a) and (b > c):
+    print("Zweite Zahl am grossten")  
+elif (c > a) and (c > b):
+    print("Dritte Zahl am grossten")  
+
+print("------------------------END-----------------------")
+'''
+
+
+'''
+#Aufgabe3
+
+schaltjahre = int(input("Bitte geben Sie Jahr: "))
+
+if schaltjahre % 400 == 0:
+    print("Schaltjahr")
+elif schaltjahre % 4 == 0 and schaltjahre % 100 != 0:
+    print("Schaltjahr")
+else:
+    print("Fehler, probiren bitte noch mal")          
+'''
+
+#Aufgabe4
+#Aufgabe5
+
+
+'''
+# random - unsere erste Bibliothek
+import random
+
+wochentag = ["mo", "di", "mi"]
+heute = random.choice(wochentag)
+print(heute)
+'''
+
+
+'''
+#Aufgabe1.random
+
+import random
+
+zahl = random.randint(1,20)
+print(zahl)
+if zahl < 10:
+    print("Zahl ist kleine als 10")
+elif zahl > 10:
+    print("Zahl ist grosser als 10") 
+'''      
+
+#Aufgabe4 Schwierige 
+
+#1 Variant
+'''
+mynumber = list(range(6, 101, 6))
+print(mynumber)
+'''
+
+'''
+#2 Variant
+for i in range(1, 101):
+    if i % 6 == 0:
+        print(i)
+    elif i % 8 == 0:
+        print(i)   
+'''
+
+
+#Aufgabe5
+
+zahl = int(input("Bitte geben Sie Zahl: "))
+zahl_als_string = str(zahl)       #Jetzt wandeln wir die Zahl in einen String um, weil man über den iterieren kann
+liste = [int(i) for i in zahl_als_string]       #Als nächstes wollen wir eine Liste mit den einzelnen Ziffern
+quersumme = sum(liste)
+print(quersumme)
+
+
+
+
+
 
 
 
